@@ -1,17 +1,17 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: AppPotのブログです。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://willianjusten.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://localhost:4000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+username: AppPot Blogs
+user_description: NCデザイン＆コンサルティング
+user_title: NCデザイン＆コンサルティング
+email: info@ncdc.co.jp
+twitter_username: app_pot
+# github_username:  lorem_ipsum
+# gplus_username:  lorem_ipsum
+# disqus_username: lorem_ipsum
 
 # Build settings
 markdown: kramdown
@@ -29,14 +29,12 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: AppPot Blogトップ
     url: /
-  - title: Series
+  - title: カテゴリ
     url: /series
-  - title: Tags
+  - title: タグ
     url: /tags
-  - title: About Me
-    url: /about
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
