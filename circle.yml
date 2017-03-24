@@ -8,8 +8,6 @@ machine:
   ruby:
     version: 2.4.0
 dependencies:
-  cache_directories:
-    - ~/cache_directory
   override:
     - bundle check --path=../vendor/bundle || bundle install --path=../vendor/bundle --jobs=4 --retry=3
 test:
