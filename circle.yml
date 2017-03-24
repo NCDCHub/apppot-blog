@@ -12,7 +12,7 @@ dependencies:
     - bundle check --path=../vendor/bundle || bundle install --path=../vendor/bundle --jobs=4 --retry=3
 test:
   override:
-    - ls -la && mkdir -p ../outputfiles && bundle exec jekyll build -V --config ./_config.yml -d ../outputfiles
+    - ls -la && mkdir -p ../outputfiles && rm -rf vendor && bundle exec jekyll build -V --config ./_config.yml -d ../outputfiles
 deployment:
   production:
     branch: master
