@@ -7,6 +7,9 @@ machine:
       Asia/Tokyo
   ruby:
     version: 2.4.0
+dependencies:
+  cache_directories:
+    - ~/cache_directory
 test:
   override:
     - ls -la && mkdir -p ../outputfiles && bundle exec jekyll build -V --config _config.yml -d ../outputfiles
