@@ -1,7 +1,7 @@
 # Site settings
 description: AppPotのブログです。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://blog.apppot.jp" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: AppPot Blogs
@@ -37,4 +37,4 @@ links:
     url: /tags
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules', 'verdor', '.bundle']
+exclude: ['package.json', 'src', 'node_modules']
