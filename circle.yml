@@ -1,0 +1,29 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+machine:
+  timezone:
+      Asia/Tokyo
+  ruby:
+    version: 2.4.0
+dependencies:
+  override:
+    - bundle check --path=../vendor/bundle || bundle install --path=../vendor/bundle --jobs=4 --retry=3
+test:
+  override:
+    - ls -la && mkdir -p ../outputfiles && rm -rf vendor && bundle exec jekyll build -V --config ./_config.yml -d ../outputfiles
+deployment:
+  production:
+    branch: master
+    commands:
+      - git reset --hard HEAD
+      - rm -rf .bundle .ruby-version
+      - git checkout gh-pages
+      - rm -rf *
+      - mv -f ../outputfiles/* .
+      - git config --global user.email 'e2hjhi@gmail.com'
+      - git config --global user.name 'karuru6225'
+      - git add -A
+      - git commit -m "[auto] compiled by jekyll at circleci"
+      - git push "git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git" gh-pages

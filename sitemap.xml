@@ -1,16 +1,89 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
+    
         <url>
-            <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
+            <loc>http://blog.apppot.jp/about/index.html</loc>
         </url>
-    {% endfor %}
-    {% for post in site.posts %}
+    
         <url>
-            <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
+            <loc>http://blog.apppot.jp/category/css/</loc>
         </url>
-  {% endfor %}
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/dev/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/event/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/feed.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/html/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/info/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/jekyll/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/js/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/misc/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/search.json</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/series/index.html</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/sitemap.xml</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/category/svg/</loc>
+        </url>
+    
+        <url>
+            <loc>http://blog.apppot.jp/tags/index.html</loc>
+        </url>
+    
+    
+        <url>
+            <loc>http://blog.apppot.jp/seminar-swift-20170120/</loc>
+        </url>
+  
+        <url>
+            <loc>http://blog.apppot.jp/first-entry/</loc>
+        </url>
+  
+        <url>
+            <loc>http://blog.apppot.jp/seminar-iot-ai-20161222/</loc>
+        </url>
+  
+        <url>
+            <loc>http://blog.apppot.jp/apppot-iot-release/</loc>
+        </url>
+  
+        <url>
+            <loc>http://blog.apppot.jp/seminar-angular-20161005/</loc>
+        </url>
+  
 </urlset>

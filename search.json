@@ -1,12 +1,38 @@
----
----
 [
-  {% for post in site.posts %}
+  
     {
-      "title"    : "{{ post.title | escape }}",
-      "tags"     : "{{ post.tags | array_to_sentence_string }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date_to_string}}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "title"    : "セミナー告知：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法",
+      "tags"     : "セミナー, Swift, and AppPot",
+      "url"      : "/seminar-swift-20170120/",
+      "date"     : "05 Jan 2017"
+    } ,
+  
+    {
+      "title"    : "AppPotの公式Blog始めます",
+      "tags"     : "info",
+      "url"      : "/first-entry/",
+      "date"     : "04 Jan 2017"
+    } ,
+  
+    {
+      "title"    : "セミナー（終了）：AIとIoTのミライに登壇しました",
+      "tags"     : "ai, IoT, and セミナー",
+      "url"      : "/seminar-iot-ai-20161222/",
+      "date"     : "23 Dec 2016"
+    } ,
+  
+    {
+      "title"    : "AppPot IoTをリリースしました",
+      "tags"     : "AppPot, IoT, and Info",
+      "url"      : "/apppot-iot-release/",
+      "date"     : "06 Oct 2016"
+    } ,
+  
+    {
+      "title"    : "セミナー告知（終了）：AngularJSとバックエンドサービスAppPotで作る業務システム入門（第三回）",
+      "tags"     : "セミナー, AppPot, AngularJS, and JavaScript",
+      "url"      : "/seminar-angular-20161005/",
+      "date"     : "06 Oct 2016"
+    } 
+  
 ]
