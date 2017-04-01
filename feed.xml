@@ -5,8 +5,8 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Apr 2017 00:50:24 +0900</pubDate>
-    <lastBuildDate>Sun, 02 Apr 2017 00:50:24 +0900</lastBuildDate>
+    <pubDate>Sun, 02 Apr 2017 00:58:06 +0900</pubDate>
+    <lastBuildDate>Sun, 02 Apr 2017 00:58:06 +0900</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -47,8 +47,10 @@
       </item>
     
       <item>
-        <title>セミナー告知：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法</title>
-        <description>&lt;h1 id=&quot;セミナー告知swift3とバックエンドサービスを使ったサーバーレスな企業向けiosアプリの開発手法&quot;&gt;セミナー告知：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法&lt;/h1&gt;
+        <title>セミナー（終了）：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法</title>
+        <description>&lt;h1 id=&quot;セミナー終了swift3とバックエンドサービスを使ったサーバーレスな企業向けiosアプリの開発手法&quot;&gt;セミナー（終了）：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法&lt;/h1&gt;
+
+&lt;p&gt;※ 講演資料を追記しました。&lt;/p&gt;
 
 &lt;h2 id=&quot;概要&quot;&gt;概要&lt;/h2&gt;
 &lt;p&gt;企業向けバックエンドサービスのAppPotを使用して、Swift3でiOSアプリを安全かつ手軽に開発するためポイントを説明するセミナーを開催します。&lt;/p&gt;
@@ -65,6 +67,11 @@ Swift3やバックエンドサービスを使った今時のアプリ開発に�
   &lt;li&gt;AppPot製品サイト: &lt;a href=&quot;http://apppot.jp/&quot;&gt;http://apppot.jp/&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/app_pot&quot;&gt;@app_pot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;講演資料&quot;&gt;講演資料&lt;/h2&gt;
+
+&lt;blockquote class=&quot;embedly-card&quot;&gt;&lt;h4&gt;&lt;a href=&quot;https://speakerdeck.com/apppot/swift3-ios-app-development-method&quot;&gt;ASwift3とバックエンドサービスを使ったサーバーレスな企業向けiOSアプリの開発手法&lt;/a&gt;&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//cdn.embedly.com/widgets/platform.js&quot; charset=&quot;UTF-8&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;イベント詳細&quot;&gt;イベント詳細&lt;/h2&gt;
 &lt;ul&gt;
