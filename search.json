@@ -1,6 +1,13 @@
 [
   
     {
+      "title"    : "セミナー（終了）：AppPotで企業向けアプリの開発はこう変わる！",
+      "tags"     : "AppPot and Info",
+      "url"      : "/seminar-ctc/",
+      "date"     : "25 Mar 2017"
+    } ,
+  
+    {
       "title"    : "セミナー告知：Swift3とバックエンドサービスを使った、サーバーレスな企業向けiOSアプリの開発手法",
       "tags"     : "セミナー, Swift, and AppPot",
       "url"      : "/seminar-swift-20170120/",
