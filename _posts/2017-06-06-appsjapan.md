@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "イベント：APPS JAPAN2017出展
+title: "イベント：APPS JAPAN2017出展"
 date: 2017-06-06 22:43:23
 description: '幕張メッセで6/6（水） - 8（金）で開催中のAPPS JAPAN2017（インターロップに併設）にAppPotを出展しています。'
 main-class: 'event'
