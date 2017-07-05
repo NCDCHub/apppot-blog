@@ -115,7 +115,7 @@
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <p>AppPotには他のデータベースや、Webサービスを簡単に呼び出せるGateway APIがあります。APIの詳細はこちらをご覧ください。
+                <p>AppPotには他のデータベースや、WebサービスをAppPotを経由して簡単に呼び出せるGateway APIという機能があります。APIの詳細はこちらをご覧ください。
 <a href="http://docs.apppot.jp/apppot/09.GatewayAPI.html">Gateway API</a></p>
 
 <p>今回、AppPotのJavaScript SDKで、Gateway APIのサポートを開始しましたので、使い方をお知らせします。
@@ -124,7 +124,8 @@ iOS、Android SDKでも順次提供を開始予定です。</p>
 <h2 id="sdkの更新">SDKの更新</h2>
 <p>Gateway APIはJavaScript SDKのバージョン<code class="highlighter-rouge">2.3.27</code>からサポートされていますので、<code class="highlighter-rouge">npm update</code>を実行して、SDKを最新にしてください。</p>
 
-<h2 id="gatewayapi-利用方法">GatewayAPI 利用方法</h2>
+<h2 id="sdkのインターフェイス仕様">SDKのインターフェイス仕様</h2>
+<p>Gateway APIはGET、POST、PUT、REMOVEのメソッドを持っています。</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>const AppPot = AppPotSDK.getService(config);
 
@@ -153,10 +154,10 @@ AppPot.Gateway.remove(serviceName, url, queryparam, body, option)
 <p>各パラメタの説明は以下の通りです。</p>
 
 <ul>
-  <li>serviceName: AppPot管理コンソールで設定した、サービスの名前</li>
-  <li>url:</li>
+  <li>serviceName: AppPot管理コンソールで設定したサービスの名前</li>
+  <li>url: 連携先に渡すURLパス</li>
   <li>queryparam: URL末尾に付加する、クエリパラメータ <code class="highlighter-rouge"><span class="p">{</span><span class="err">key:</span><span class="w"> </span><span class="err">value</span><span class="p">}</span></code> の形式のオブジェクトか、文字列を指定できる。使用しない場合はnullを指定する。</li>
-  <li>body: requestbodyに指定する。使用しない場合はnullを指定する。</li>
+  <li>body: 連携先に渡すBody部。使用しない場合はnullを指定する。</li>
   <li>option: 以下のオプションを指定可能
     <ul>
       <li>original: Boolean<br />
