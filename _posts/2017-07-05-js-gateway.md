@@ -13,7 +13,7 @@ twitter_text: 'AppPot Javascript SDKで他システムを簡単に呼び出せ�
 introduction: 'AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。'
 ---
 
-AppPotには他のデータベースや、Webサービスを簡単に呼び出せるGateway APIがあります。APIの詳細はこちらをご覧ください。
+AppPotには他のデータベースや、WebサービスをAppPotを経由して簡単に呼び出せるGateway APIという機能があります。APIの詳細はこちらをご覧ください。
 [Gateway API](http://docs.apppot.jp/apppot/09.GatewayAPI.html)
 
 今回、AppPotのJavaScript SDKで、Gateway APIのサポートを開始しましたので、使い方をお知らせします。
@@ -22,7 +22,8 @@ iOS、Android SDKでも順次提供を開始予定です。
 ## SDKの更新
 Gateway APIはJavaScript SDKのバージョン`2.3.27`からサポートされていますので、`npm update`を実行して、SDKを最新にしてください。
 
-## GatewayAPI 利用方法
+## SDKのインターフェイス仕様
+Gateway APIはGET、POST、PUT、REMOVEのメソッドを持っています。
 
 ```
 const AppPot = AppPotSDK.getService(config);
@@ -50,10 +51,10 @@ AppPot.Gateway.remove(serviceName, url, queryparam, body, option)
 ## パラメタ
 各パラメタの説明は以下の通りです。
 
-- serviceName: AppPot管理コンソールで設定した、サービスの名前
-- url: 
+- serviceName: AppPot管理コンソールで設定したサービスの名前
+- url: 連携先に渡すURLパス
 - queryparam: URL末尾に付加する、クエリパラメータ `{key: value}` の形式のオブジェクトか、文字列を指定できる。使用しない場合はnullを指定する。
-- body: requestbodyに指定する。使用しない場合はnullを指定する。
+- body: 連携先に渡すBody部。使用しない場合はnullを指定する。
 - option: 以下のオプションを指定可能
 	- original: Boolean  
 	  連携先サービスのレスポンスをそのまま受け取るかどうか。
