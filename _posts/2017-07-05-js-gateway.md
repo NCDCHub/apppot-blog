@@ -6,8 +6,9 @@ description: 'AppPot Javascript SDKで他システムを簡単に呼び出せる
 main-class: 'dev'
 color: '#B31917'
 tags:
-- AppPot
-- Info
+- Dev
+- JavaScript
+- 他システム連携
 categories:
 twitter_text: 'AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。'
 introduction: 'AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。'
