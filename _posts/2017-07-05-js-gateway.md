@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JavaScript API Gateway APIのサポート"
+title: "AppPot JavaScript SDKのGateway APIのサポート"
 date: 2017-07-05 22:43:23
 description: 'AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。'
 main-class: 'dev'
@@ -58,7 +58,7 @@ AppPot.Gateway.remove(serviceName, url, queryparam, body, option)
 - option: 以下のオプションを指定可能
 	- original: Boolean  
 	  連携先サービスのレスポンスをそのまま受け取るかどうか。
-	  `true` を指定すると、`{error: {error時の返答}, response: {ajaxのレスポンス}}` という形式でレスポンスを受け取れる
+	  `true` を指定すると、`{error: {error時の返答}, response: {連携先のHTTPレスポンス}}` という形式でレスポンスを受け取れる
 	  `false` の場合、レスポンスのbodyをjsonとして解釈したオブジェクトを受け取る
 
 以下は、DBコネクタを使って、データベースに接続する際の、クライアントの実装のイメージです。
