@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>JavaScript API Gateway APIのサポート</title>
+    <title>AppPot JavaScript SDKのGateway APIのサポート</title>
     <meta name="description" content="AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。">
 
     <!-- Google Authorship Markup -->
@@ -14,7 +14,7 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@app_pot">
-    <meta name="twitter:title" content="JavaScript API Gateway APIのサポート">
+    <meta name="twitter:title" content="AppPot JavaScript SDKのGateway APIのサポート">
     <meta name="twitter:description" content="AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。">
     
     <meta property="twitter:image:src" content="http://blog.apppot.jp/assets/img/blog-image.png">
@@ -22,7 +22,7 @@
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:url" content="http://blog.apppot.jp/js-gateway/">
-    <meta property="og:title" content="JavaScript API Gateway APIのサポート">
+    <meta property="og:title" content="AppPot JavaScript SDKのGateway APIのサポート">
     
     <meta property="og:image" content="http://blog.apppot.jp/assets/img/blog-image.png">
     
@@ -30,7 +30,7 @@
     <meta property="og:site_name" content="">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="JavaScript API Gateway APIのサポート"/>
+    <meta itemprop="name" content="AppPot JavaScript SDKのGateway APIのサポート"/>
     <meta itemprop="description" content="AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。">
     <meta itemprop="image" content="http://blog.apppot.jp/assets/img/blog-image.png"/>
 
@@ -108,7 +108,7 @@
         
             <time itemprop="datePublished" datetime="2017-07-06T07:43:23+09:00" class="date">06 Jul 2017</time>
         
-        <h1 class="post-title" itemprop="name">JavaScript API Gateway APIのサポート</h1>
+        <h1 class="post-title" itemprop="name">AppPot JavaScript SDKのGateway APIのサポート</h1>
         <p itemprop="description" class="subtitle">AppPot Javascript SDKで他システムを簡単に呼び出せるGateway APIのサポートを開始しました。</p>
     </div>
 </header>
@@ -162,7 +162,7 @@ AppPot.Gateway.remove(serviceName, url, queryparam, body, option)
     <ul>
       <li>original: Boolean<br />
 連携先サービスのレスポンスをそのまま受け取るかどうか。
-<code class="highlighter-rouge">true</code> を指定すると、<code class="highlighter-rouge"><span class="p">{</span><span class="err">error:</span><span class="w"> </span><span class="err">{error時の返答</span><span class="p">}</span><span class="err">,</span><span class="w"> </span><span class="err">response:</span><span class="w"> </span><span class="p">{</span><span class="err">ajaxのレスポンス</span><span class="p">}</span><span class="err">}</span></code> という形式でレスポンスを受け取れる
+<code class="highlighter-rouge">true</code> を指定すると、<code class="highlighter-rouge"><span class="p">{</span><span class="err">error:</span><span class="w"> </span><span class="err">{error時の返答</span><span class="p">}</span><span class="err">,</span><span class="w"> </span><span class="err">response:</span><span class="w"> </span><span class="p">{</span><span class="err">連携先のHTTPレスポンス</span><span class="p">}</span><span class="err">}</span></code> という形式でレスポンスを受け取れる
 <code class="highlighter-rouge">false</code> の場合、レスポンスのbodyをjsonとして解釈したオブジェクトを受け取る</li>
     </ul>
   </li>
