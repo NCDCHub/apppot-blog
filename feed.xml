@@ -5,8 +5,8 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Aug 2017 22:03:04 +0900</pubDate>
-    <lastBuildDate>Fri, 04 Aug 2017 22:03:04 +0900</lastBuildDate>
+    <pubDate>Fri, 04 Aug 2017 22:09:12 +0900</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2017 22:09:12 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -32,15 +32,16 @@
 
 &lt;h1 id=&quot;プログラム&quot;&gt;プログラム&lt;/h1&gt;
 
-&lt;h2 id=&quot;14001405-ご挨拶&quot;&gt;14:00~14:05 ご挨拶&lt;/h2&gt;
-&lt;h2 id=&quot;14051455-基調講演-フジテックの情報システム戦略とアプリ内製化&quot;&gt;14:05~14:55 基調講演 「フジテックの情報システム戦略とアプリ内製化」&lt;/h2&gt;
+&lt;h3 id=&quot;14001405-ご挨拶&quot;&gt;14:00~14:05 ご挨拶&lt;/h3&gt;
+&lt;h3 id=&quot;14051455-基調講演-フジテックの情報システム戦略とアプリ内製化&quot;&gt;14:05~14:55 基調講演 「フジテックの情報システム戦略とアプリ内製化」&lt;/h3&gt;
 &lt;p&gt;フジテック株式会社 情報システム部 主事 小庵寺 良剛 様&lt;/p&gt;
-&lt;h2 id=&quot;14551505-休憩&quot;&gt;14:55~15:05 休憩&lt;/h2&gt;
-&lt;h2 id=&quot;15051535-ソリューション紹介1-monaca活用事例に学ぶ業務アプリ開発の成功のポイント&quot;&gt;15:05~15:35 ソリューション紹介1 「Monaca活用事例に学ぶ、業務アプリ開発の成功のポイント」&lt;/h2&gt;
+&lt;h3 id=&quot;14551505-休憩&quot;&gt;14:55~15:05 休憩&lt;/h3&gt;
+&lt;h3 id=&quot;15051535-ソリューション紹介1-monaca活用事例に学ぶ業務アプリ開発の成功のポイント&quot;&gt;15:05~15:35 ソリューション紹介1 「Monaca活用事例に学ぶ、業務アプリ開発の成功のポイント」&lt;/h3&gt;
 &lt;p&gt;アシアル株式会社 取締役 塚田 亮一&lt;/p&gt;
-&lt;h2 id=&quot;15351605-ソリューション紹介2-企業向けバックエンドサービスapppotを使ったモバイルアプリの高速開発手法&quot;&gt;15:35~16:05 ソリューション紹介2 「企業向けバックエンドサービスAppPotを使ったモバイルアプリの高速開発手法」&lt;/h2&gt;
-&lt;p&gt;NCデザイン&amp;amp;コンサルティング株式会社 AppPotプロダクトマネージャー　十川 亮平&lt;/p&gt;
-&lt;h2 id=&quot;16051630-質問相談タイム&quot;&gt;16:05~16:30 質問、相談タイム&lt;/h2&gt;
+&lt;h3 id=&quot;15351605-ソリューション紹介2-企業向けバックエンドサービスapppotを使ったモバイルアプリの高速開発手法&quot;&gt;15:35~16:05 ソリューション紹介2 「企業向けバックエンドサービスAppPotを使ったモバイルアプリの高速開発手法」&lt;/h3&gt;
+&lt;p&gt;NCデザイン&amp;amp;コンサルティング株式会社
+AppPotプロダクトマネージャー　十川 亮平&lt;/p&gt;
+&lt;h3 id=&quot;16051630-質問相談タイム&quot;&gt;16:05~16:30 質問、相談タイム&lt;/h3&gt;
 
 </description>
         <pubDate>Sat, 05 Aug 2017 04:43:23 +0900</pubDate>
