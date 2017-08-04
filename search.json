@@ -1,8 +1,15 @@
 [
   
     {
+      "title"    : "イベント：モバイルファースト時代の攻めのシステム内製化戦略＠大阪",
+      "tags"     : "AppPot, Monaca, and Info",
+      "url"      : "/seminar-20170907/",
+      "date"     : "05 Aug 2017"
+    } ,
+  
+    {
       "title"    : "AppPot JavaScript SDKのGateway APIのサポート",
-      "tags"     : "AppPot and Info",
+      "tags"     : "Dev, JavaScript, and 他システム連携",
       "url"      : "/js-gateway/",
       "date"     : "06 Jul 2017"
     } ,

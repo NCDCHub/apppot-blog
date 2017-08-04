@@ -5,9 +5,55 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Jul 2017 13:21:31 +0900</pubDate>
-    <lastBuildDate>Thu, 06 Jul 2017 13:21:31 +0900</lastBuildDate>
-    <generator>Jekyll v3.5.0</generator>
+    <pubDate>Fri, 04 Aug 2017 20:24:16 +0900</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2017 20:24:16 +0900</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>イベント：モバイルファースト時代の攻めのシステム内製化戦略＠大阪</title>
+        <description>&lt;p&gt;ITシステムへの期待がこれまでの業務効率化によるコスト削減からビジネスの競争優位を創る「武器」としての役割へと変革する中で、システム開発は加速するビジネスのスピードに即応することが求められます。特にモバイル活用についてはスピーディーなシステム開発が求められるため、モバイルアプリの内製開発の挑戦する企業が急増しております。&lt;/p&gt;
+
+&lt;p&gt;本セミナーでは、早くからモバイルアプリの内製化をすすめ、社内にモバイルファーストなシステム開発体制の構築に成功しているフジテック株式会社情報システム部の小庵寺良剛様をお迎えし、モバイルアプリ開発の内製化の進め方とその効果についてご紹介いただきます。&lt;/p&gt;
+
+&lt;p&gt;併せて、これからアプリ開発に取り組む企業がエンジニアの学習コストを抑え、効率的にアプリの開発、運用を進めるために便利な開発支援ツールのご紹介をいたします。&lt;/p&gt;
+
+&lt;p&gt;モバイルアプリの内製化を目指す企業の方や、モバイルアプリ開発の更なる効率化を目指す方々は、ぜひご参加下さい。&lt;/p&gt;
+
+&lt;h1 id=&quot;開催概要&quot;&gt;開催概要&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;日時	2017年9月7日（木）14:00~16:30（開場：13:30）&lt;/li&gt;
+  &lt;li&gt;会場 	ナレッジキャピタル コングレコンベンションセンター JR「大阪駅」より徒歩3分（駅北口直結）&lt;/li&gt;
+  &lt;li&gt;定員	70名&lt;/li&gt;
+  &lt;li&gt;参加費 	無料&lt;/li&gt;
+  &lt;li&gt;対象 	企業の情報システム部門などで業務システムの企画、開発、発注に携わられる方 (本セミナーは企業向けのセミナーです。個人でのご参加はお断りすることがございます。)&lt;/li&gt;
+  &lt;li&gt;主催	アシアル株式会社 / NCデザイン&amp;amp;コンサルティング株式会社&lt;/li&gt;
+  &lt;li&gt;申し込みは下記から
+  https://form.k3r.jp/asial/Seminar20170907&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;プログラム&quot;&gt;プログラム&lt;/h1&gt;
+&lt;p&gt;| 時間 | 内容 |
+|:—-|:—–|
+| 14:00~14:05 | ご挨拶 |
+| 14:05~14:55 | 基調講演 「フジテックの情報システム戦略とアプリ内製化」 フジテック株式会社 情報システム部 主事 小庵寺 良剛 様 |
+| 14:55~15:05 | 休憩 |
+| 15:05~15:35 | ソリューション紹介1 「Monaca活用事例に学ぶ、業務アプリ開発の成功のポイント」 アシアル株式会社 取締役 塚田 亮一 |
+| 15:35~16:05 | ソリューション紹介2 「企業向けバックエンドサービスAppPotを使ったモバイルアプリの高速開発手法」 NCデザイン&amp;amp;コンサルティング株式会社 AppPotプロダクトマネージャー　十川 亮平 |
+| 16:05~16:30 | 質問、相談タイム |&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 05 Aug 2017 04:43:23 +0900</pubDate>
+        <link>http://blog.apppot.jp/seminar-20170907/</link>
+        <guid isPermaLink="true">http://blog.apppot.jp/seminar-20170907/</guid>
+        
+        <category>AppPot</category>
+        
+        <category>Monaca</category>
+        
+        <category>Info</category>
+        
+        
+      </item>
     
       <item>
         <title>AppPot JavaScript SDKのGateway APIのサポート</title>
@@ -16,9 +62,11 @@
         <link>http://blog.apppot.jp/js-gateway/</link>
         <guid isPermaLink="true">http://blog.apppot.jp/js-gateway/</guid>
         
-        <category>AppPot</category>
+        <category>Dev</category>
         
-        <category>Info</category>
+        <category>JavaScript</category>
+        
+        <category>他システム連携</category>
         
         
       </item>
