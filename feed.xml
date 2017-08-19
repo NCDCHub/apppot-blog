@@ -5,15 +5,16 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Aug 2017 16:32:01 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Aug 2017 16:32:01 +0900</lastBuildDate>
+    <pubDate>Sat, 19 Aug 2017 16:41:01 +0900</pubDate>
+    <lastBuildDate>Sat, 19 Aug 2017 16:41:01 +0900</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>イベント：Monaca✕AppPot エンタープライズモバイルアプリ開発体験講座</title>
+        <title>イベント：Monaca✕AppPot エンタープライズモバイルアプリ開発体験講座開催</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://img.k3r.jp/asial/1_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;情報システム担当者向け-エンタープライズモバイルアプリ開発体験講座社内システム連携編&quot;&gt;情報システム担当者向け エンタープライズモバイルアプリ開発体験講座（社内システム連携編）&lt;/h2&gt;
+&lt;h2 id=&quot;情報システム担当者向け-エンタープライズモバイルアプリ開発体験講座社内システム連携編を98-大阪にて開催します&quot;&gt;情報システム担当者向け エンタープライズモバイルアプリ開発体験講座（社内システム連携編）を9/8 大阪にて開催します&lt;/h2&gt;
+
 &lt;p&gt;バックエンドサービス「AppPot」とモバイルアプリ開発ツール「Monaca」を利用したアプリ開発体験講座を大阪駅直結のナレッジキャピタル・カンファレンスルームにて開催致します。
 外出先からスマホで取引先情報を閲覧することが可能なサンプルアプリを題材として、社内データベースへの接続を実現するモバイルアプリの開発手法を学べる内容となっています。本講座は、実際にJavaScriptでコーディング体験をして頂くハンズオン講座です。&lt;/p&gt;
 
