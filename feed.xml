@@ -5,23 +5,23 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Aug 2017 15:58:51 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Aug 2017 15:58:51 +0900</lastBuildDate>
+    <pubDate>Sat, 19 Aug 2017 16:32:01 +0900</pubDate>
+    <lastBuildDate>Sat, 19 Aug 2017 16:32:01 +0900</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
-        <title>イベント：Monaca✕AppPot 情報システム担当者向けエンタープライズモバイルアプリ開発体験講座 ～社内データベース連携編～ 9月7日＠大阪</title>
+        <title>イベント：Monaca✕AppPot エンタープライズモバイルアプリ開発体験講座</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://img.k3r.jp/asial/1_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;【大阪/ハンズオン】情報システム担当者向け エンタープライズモバイルアプリ開発体験講座（社内システム連携編）
-バックエンドサービス「AppPot」とモバイルアプリ開発ツール「Monaca」を利用したアプリ開発体験講座を大阪駅直結のナレッジキャピタル・カンファレンスルームにて開催致します。
+&lt;h2 id=&quot;情報システム担当者向け-エンタープライズモバイルアプリ開発体験講座社内システム連携編&quot;&gt;情報システム担当者向け エンタープライズモバイルアプリ開発体験講座（社内システム連携編）&lt;/h2&gt;
+&lt;p&gt;バックエンドサービス「AppPot」とモバイルアプリ開発ツール「Monaca」を利用したアプリ開発体験講座を大阪駅直結のナレッジキャピタル・カンファレンスルームにて開催致します。
 外出先からスマホで取引先情報を閲覧することが可能なサンプルアプリを題材として、社内データベースへの接続を実現するモバイルアプリの開発手法を学べる内容となっています。本講座は、実際にJavaScriptでコーディング体験をして頂くハンズオン講座です。&lt;/p&gt;
 
 &lt;h2 id=&quot;apppotについて&quot;&gt;AppPotについて&lt;/h2&gt;
-&lt;p&gt;AppPotは、ビジネスに必要とされるモバイルアプリの機能を完備したバックエンドサービスです。サーバー側の開発は一切不要で、ユーザー認証（ActiveDirectory等）や社内RDBMS連携（Oracle/MySQL等）といった機能を簡単に利用できます。&lt;/p&gt;
+&lt;p&gt;AppPotはビジネスに必要とされるモバイルアプリの機能を完備したバックエンドサービスです。サーバー側の開発は一切不要で、ユーザー認証（ActiveDirectory等）や社内RDBMS連携（Oracle/MySQL等）といった機能を簡単に利用できます。&lt;/p&gt;
 
 &lt;h2 id=&quot;monacaについて&quot;&gt;Monacaについて&lt;/h2&gt;
-&lt;p&gt;Monacaは、18万ユーザーが利用するモバイルアプリ専用のクラウド型統合開発環境です。Webの標準技術（HTML/CSS/JavaScript）を使って、iOS/Androidの両方に対応したモバイルアプリを開発することができます。&lt;/p&gt;
+&lt;p&gt;Monacaは18万ユーザーが利用するモバイルアプリ専用のクラウド型統合開発環境です。Webの標準技術（HTML/CSS/JavaScript）を使って、iOS/Androidの両方に対応したモバイルアプリを開発することができます。&lt;/p&gt;
 
 &lt;h2 id=&quot;開催概要&quot;&gt;開催概要&lt;/h2&gt;
 &lt;ul&gt;
@@ -56,19 +56,28 @@
 &lt;h2 id=&quot;受講対象者&quot;&gt;受講対象者&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;情報システム部門のご担当者様&lt;/li&gt;
-  &lt;li&gt;JavaScriptの基礎知識をお持ちの方
-    &lt;h2 id=&quot;持ち物&quot;&gt;持ち物&lt;/h2&gt;
-  &lt;/li&gt;
+  &lt;li&gt;JavaScriptの基礎知識をお持ちの方&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;持ち物&quot;&gt;持ち物&lt;/h2&gt;
+&lt;ul&gt;
   &lt;li&gt;ノートPC&lt;/li&gt;
-  &lt;li&gt;スマートフォンまたはタブレット（iOS 9以上、Android 4以上）
-    &lt;h2 id=&quot;事前準備&quot;&gt;事前準備&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Chromeブラウザのインストール&lt;/li&gt;
-  &lt;li&gt;Monacaアカウント登録
-  &lt;a href=&quot;https://ja.monaca.io/&quot;&gt;https://ja.monaca.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;スマートフォンまたはタブレット（iOS 9以上、Android 4以上）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;事前準備&quot;&gt;事前準備&lt;/h2&gt;
+&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;スマートフォンまたはタブレットへのMonacaデバッガーのインストール
-  &lt;a href=&quot;https://itunes.apple.com/jp/app/monaca/id550941371&quot;&gt;App Store&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Chromeブラウザのインストール&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Monacaアカウント登録
+  &lt;a href=&quot;https://ja.monaca.io/&quot;&gt;https://ja.monaca.io/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;スマートフォンまたはタブレットへのMonacaデバッガーのインストール&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/jp/app/monaca/id550941371&quot;&gt;App Store&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=mobi.monaca.debugger&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
