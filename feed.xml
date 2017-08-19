@@ -5,8 +5,8 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Aug 2017 16:41:01 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Aug 2017 16:41:01 +0900</lastBuildDate>
+    <pubDate>Sat, 19 Aug 2017 16:58:41 +0900</pubDate>
+    <lastBuildDate>Sat, 19 Aug 2017 16:58:41 +0900</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -68,20 +68,11 @@
 
 &lt;h2 id=&quot;事前準備&quot;&gt;事前準備&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Chromeブラウザのインストール&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Monacaアカウント登録
-  &lt;a href=&quot;https://ja.monaca.io/&quot;&gt;https://ja.monaca.io/&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;スマートフォンまたはタブレットへのMonacaデバッガーのインストール&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/jp/app/monaca/id550941371&quot;&gt;App Store&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=mobi.monaca.debugger&quot;&gt;Google Play&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Chromeブラウザのインストール&lt;/li&gt;
+  &lt;li&gt;Monacaアカウント登録
+&lt;a href=&quot;https://ja.monaca.io/&quot;&gt;https://ja.monaca.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;スマートフォンまたはタブレットへのMonacaデバッガーのインストール
+&lt;a href=&quot;https://itunes.apple.com/jp/app/monaca/id550941371&quot;&gt;App Store&lt;/a&gt;または&lt;a href=&quot;https://play.google.com/store/apps/details?id=mobi.monaca.debugger&quot;&gt;Google Play&lt;/a&gt;からインストールして下さい。&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
