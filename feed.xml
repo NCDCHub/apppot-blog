@@ -5,8 +5,8 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Aug 2017 17:39:40 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Aug 2017 17:39:40 +0900</lastBuildDate>
+    <pubDate>Fri, 25 Aug 2017 18:57:53 +0900</pubDate>
+    <lastBuildDate>Fri, 25 Aug 2017 18:57:53 +0900</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -46,11 +46,11 @@
 
 &lt;h2 id=&quot;プログラム&quot;&gt;プログラム&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;14：30　受付開始&lt;/li&gt;
-  &lt;li&gt;15：00　AppPotの概要説明&lt;/li&gt;
-  &lt;li&gt;15：15　Monacaの概要説明&lt;/li&gt;
-  &lt;li&gt;15：30　ハンズオン開始&lt;/li&gt;
-  &lt;li&gt;17：00　終了&lt;/li&gt;
+  &lt;li&gt;13：45：受付開始&lt;/li&gt;
+  &lt;li&gt;14：00：AppPotの概要説明&lt;/li&gt;
+  &lt;li&gt;14：15：Monacaの概要説明&lt;/li&gt;
+  &lt;li&gt;14：30　ハンズオン開始&lt;/li&gt;
+  &lt;li&gt;16：00　終了&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;受講対象者&quot;&gt;受講対象者&lt;/h2&gt;
