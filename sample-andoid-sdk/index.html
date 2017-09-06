@@ -120,7 +120,7 @@
 AppPot SDKのjarをライブラリとして追加します。</li>
 </ol>
 
-<p><img src="./images/sample-android-sdk-import-lib.png" alt="" /></p>
+<p><img src="http://docs.apppot.jp/apppot/AndroidSDK_images/sample-android-sdk-import-lib.png" alt="" /></p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -131,12 +131,44 @@ AppPot SDKのjarをライブラリとして追加します。</li>
 </div>
 
 <ol>
-  <li>
-    <p>AppPotの初期化とログイン</p>
-  </li>
-  <li>
-    <p>モデルの定義</p>
-  </li>
+  <li>AppPotの初期化とログイン</li>
+</ol>
+
+<p>Login画面のActivityのonCreateなど起動時に実行される場所で、AppPotを使うための初期化を行います。
+APService.setServiceInfoメソッドを利用して、companyIdやappId, appVersion, appKeyなどを指定します。
+これらの値は実際には、設定ファイルに持つなどして下さい。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>    private boolean initAppInfo() {
+        final APService service = APService.getInstance();
+        service.setLogLevel(LogLevel.verbose);
+        if (service.isInit()) {
+            return true;
+        }
+
+        try {
+            service.setServiceInfo(
+                    getApplicationContext(),
+                    AppPotConfig.companyId,
+                    AppPotConfig.appID,
+                    AppPotConfig.appKey,
+                    AppPotConfig.appVersion,
+                    AppPotConfig.hostName,
+                    AppPotConfig.contextRoot,
+                    AppPotConfig.portNumber,
+                    AppPotConfig.isUsePushNotification,
+                    AppPotConfig.isUseSSL);
+
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
+    }
+</code></pre>
+</div>
+
+<ol>
+  <li>モデルの定義</li>
 </ol>
 
 <p><code class="highlighter-rouge">jp.co.ncdc.apppot.stew.dto.APObject</code>を継承したモデルクラスを定義します。</p>
