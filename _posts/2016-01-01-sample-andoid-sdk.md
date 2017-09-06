@@ -16,7 +16,7 @@ introduction: 'AppPotのAndroid SDKをリリースしました。'
 1. AppPot SDKのインポート
 AppPot SDKのjarをライブラリとして追加します。
 
-![](./images/sample-android-sdk-import-lib.png)
+![](http://docs.apppot.jp/apppot/AndroidSDK_images/sample-android-sdk-import-lib.png)
 
 ```
 dependencies {
@@ -28,7 +28,38 @@ dependencies {
 
 2. AppPotの初期化とログイン
 
+Login画面のActivityのonCreateなど起動時に実行される場所で、AppPotを使うための初期化を行います。
+APService.setServiceInfoメソッドを利用して、companyIdやappId, appVersion, appKeyなどを指定します。
+これらの値は実際には、設定ファイルに持つなどして下さい。
 
+```
+    private boolean initAppInfo() {
+        final APService service = APService.getInstance();
+        service.setLogLevel(LogLevel.verbose);
+        if (service.isInit()) {
+            return true;
+        }
+
+        try {
+            service.setServiceInfo(
+                    getApplicationContext(),
+                    AppPotConfig.companyId,
+                    AppPotConfig.appID,
+                    AppPotConfig.appKey,
+                    AppPotConfig.appVersion,
+                    AppPotConfig.hostName,
+                    AppPotConfig.contextRoot,
+                    AppPotConfig.portNumber,
+                    AppPotConfig.isUsePushNotification,
+                    AppPotConfig.isUseSSL);
+
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
+            return false;
+        }
+        return true;
+    }
+```
 
 3. モデルの定義
 
