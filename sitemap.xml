@@ -71,10 +71,6 @@
         </url>
   
         <url>
-            <loc>http://blog.apppot.jp/sample-andoid-sdk/</loc>
-        </url>
-  
-        <url>
             <loc>http://blog.apppot.jp/seminar-20170907/</loc>
         </url>
   
@@ -92,6 +88,10 @@
   
         <url>
             <loc>http://blog.apppot.jp/seminar-ctc/</loc>
+        </url>
+  
+        <url>
+            <loc>http://blog.apppot.jp/sample-andoid-sdk/</loc>
         </url>
   
         <url>

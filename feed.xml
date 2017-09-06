@@ -5,8 +5,8 @@
     <description>AppPotのブログです。</description>
     <link>http://blog.apppot.jp/</link>
     <atom:link href="http://blog.apppot.jp/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Sep 2017 00:49:33 +0900</pubDate>
-    <lastBuildDate>Thu, 07 Sep 2017 00:49:33 +0900</lastBuildDate>
+    <pubDate>Thu, 07 Sep 2017 00:54:23 +0900</pubDate>
+    <lastBuildDate>Thu, 07 Sep 2017 00:54:23 +0900</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -84,34 +84,6 @@
         <category>Monaca</category>
         
         <category>Info</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>AppPot Android SDK v3のサンプル</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;AppPot SDKのインポート
-AppPot SDKのjarをライブラリとして追加します。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;sample-android-sdk-import-lib.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('libs/AppPotSDK-3.2.0.jar')
-    // その他略
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sun, 20 Aug 2017 04:43:23 +0900</pubDate>
-        <link>http://blog.apppot.jp/sample-andoid-sdk/</link>
-        <guid isPermaLink="true">http://blog.apppot.jp/sample-andoid-sdk/</guid>
-        
-        <category>AppPot</category>
-        
-        <category>Android</category>
         
         
       </item>
@@ -263,6 +235,46 @@ UXの検討、画面の開発に集中できるため、以下のような声を
         <category>AppPot</category>
         
         <category>Info</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>AppPot Android SDK v3のサンプル</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;AppPot SDKのインポート
+AppPot SDKのjarをライブラリとして追加します。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/sample-android-sdk-import-lib.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/AppPotSDK-3.2.0.jar')
+    // その他略
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;AppPotの初期化とログイン&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;モデルの定義&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;jp.co.ncdc.apppot.stew.dto.APObject&lt;/code&gt;を継承したモデルクラスを定義します。&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Jan 2017 04:43:23 +0900</pubDate>
+        <link>http://blog.apppot.jp/sample-andoid-sdk/</link>
+        <guid isPermaLink="true">http://blog.apppot.jp/sample-andoid-sdk/</guid>
+        
+        <category>AppPot</category>
+        
+        <category>Android</category>
         
         
       </item>

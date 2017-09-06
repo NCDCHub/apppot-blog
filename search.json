@@ -8,13 +8,6 @@
     } ,
   
     {
-      "title"    : "AppPot Android SDK v3のサンプル",
-      "tags"     : "AppPot and Android",
-      "url"      : "/sample-andoid-sdk/",
-      "date"     : "20 Aug 2017"
-    } ,
-  
-    {
       "title"    : "イベント：モバイルファースト時代の攻めのシステム内製化戦略 9月7日＠大阪",
       "tags"     : "AppPot, Monaca, and Info",
       "url"      : "/seminar-20170907/",
@@ -47,6 +40,13 @@
       "tags"     : "AppPot and Info",
       "url"      : "/seminar-ctc/",
       "date"     : "25 Mar 2017"
+    } ,
+  
+    {
+      "title"    : "AppPot Android SDK v3のサンプル",
+      "tags"     : "AppPot and Android",
+      "url"      : "/sample-andoid-sdk/",
+      "date"     : "20 Jan 2017"
     } ,
   
     {
