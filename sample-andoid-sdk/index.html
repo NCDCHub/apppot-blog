@@ -115,61 +115,69 @@
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <ol>
-  <li>AppPot SDKのインポート
-AppPot SDKのjarをライブラリとして追加します。</li>
-</ol>
+                <h2 id="1-apppot-sdkのインポート">1. AppPot SDKのインポート</h2>
+<p>AppPot SDKのjarをライブラリとして追加します。</p>
 
 <p><img src="http://docs.apppot.jp/apppot/AndroidSDK_images/sample-android-sdk-import-lib.png" alt="" /></p>
 
+<p>build.gradleファイルに以下の設定を追加します。
+SDKのファイル名はバージョンによって異なりますので、使用する環境に合わせて変更してください。</p>
 <div class="highlighter-rouge"><pre class="highlight"><code>dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile files('libs/AppPotSDK-3.2.0.jar')
-    // その他略
+    // その他のライブラリの設定は省略
 }
 </code></pre>
 </div>
 
-<ol>
-  <li>AppPotの初期化とログイン</li>
-</ol>
+<h2 id="2-apppotの初期化とログイン">2. AppPotの初期化とログイン</h2>
 
 <p>Login画面のActivityのonCreateなど起動時に実行される場所で、AppPotを使うための初期化を行います。
 APService.setServiceInfoメソッドを利用して、companyIdやappId, appVersion, appKeyなどを指定します。
 これらの値は実際には、設定ファイルに持つなどして下さい。</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>    private boolean initAppInfo() {
-        final APService service = APService.getInstance();
-        service.setLogLevel(LogLevel.verbose);
-        if (service.isInit()) {
-            return true;
-        }
+<div class="highlighter-rouge"><pre class="highlight"><code>
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
 
-        try {
-            service.setServiceInfo(
-                    getApplicationContext(),
-                    AppPotConfig.companyId,
-                    AppPotConfig.appID,
-                    AppPotConfig.appKey,
-                    AppPotConfig.appVersion,
-                    AppPotConfig.hostName,
-                    AppPotConfig.contextRoot,
-                    AppPotConfig.portNumber,
-                    AppPotConfig.isUsePushNotification,
-                    AppPotConfig.isUseSSL);
+    // 略
 
-        } catch (Exception e) {
-            Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        return true;
+    initAppInfo();
+}
+
+private void initAppInfo() {
+    final APService service = APService.getInstance();
+    service.setLogLevel(LogLevel.verbose);
+    if (service.isInit()) {
+        return;
     }
+
+    Log.v(this.getLocalClassName(), "initAppInfo start");
+    final Resources r = getResources();
+    try {
+        service.setServiceInfo(
+                getApplicationContext(),
+                AppPotConfig.companyId,
+                AppPotConfig.appID,
+                AppPotConfig.appKey,
+                AppPotConfig.appVersion,
+                AppPotConfig.hostName,
+                AppPotConfig.contextRoot,
+                AppPotConfig.portNumber,
+                AppPotConfig.isUsePushNotification,
+                AppPotConfig.isUseSSL);
+
+    } catch (Exception e) {
+        Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
+    }
+
+    Log.v(this.getLocalClassName(), "initAppInfo end");
+}
 </code></pre>
 </div>
 
-<ol>
-  <li>モデルの定義</li>
-</ol>
+<h2 id="3-モデルの定義">3. モデルの定義</h2>
 
 <p><code class="highlighter-rouge">jp.co.ncdc.apppot.stew.dto.APObject</code>を継承したモデルクラスを定義します。</p>
 
