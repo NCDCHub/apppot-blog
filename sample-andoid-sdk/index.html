@@ -116,15 +116,20 @@
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
                 <h2 id="1-apppot-sdkのインポート">1. AppPot SDKのインポート</h2>
-<p>AppPot SDKのjarをライブラリとして追加します。</p>
+<p>AppPot SDKのjarをライブラリとして追加します。
+また、AppPot SDKはgsonを使用しますので、合わせてライブラリとして追加します。</p>
 
 <p><img src="http://docs.apppot.jp/apppot/AndroidSDK_images/sample-android-sdk-import-lib.png" alt="" /></p>
 
-<p>build.gradleファイルに以下の設定を追加します。
-SDKのファイル名はバージョンによって異なりますので、使用する環境に合わせて変更してください。</p>
+<p>アプリのディレクトリのlibs以下にjarを配置して、build.gradleファイルに以下の設定を追加します。
+ライブラリのファイル名はバージョンによって異なりますので、使用する環境に合わせて変更してください。</p>
+
 <div class="highlighter-rouge"><pre class="highlight"><code>dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile files('libs/AppPotSDK-3.2.0.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'cz.msebera.android:httpclient:4.4.1.2'
     // その他のライブラリの設定は省略
 }
 </code></pre>
